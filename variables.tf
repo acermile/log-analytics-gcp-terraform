@@ -7,11 +7,6 @@ variable "environment" {
 
 }
 
-variable "client-name" {
-
-  default = "mcd"
-
-}
 
 
 
