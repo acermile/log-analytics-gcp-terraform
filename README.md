@@ -7,7 +7,7 @@ Terraform will perform the following actions:
 
 ................................................
 
-  # google_project_iam_binding.log-writer-pub-sub will be created
+   google_project_iam_binding.log-writer-pub-sub will be created
   + resource "google_project_iam_binding" "log-writer-pub-sub" {
       + etag    = (known after apply)
       + id      = (known after apply)
@@ -16,7 +16,7 @@ Terraform will perform the following actions:
       + role    = "roles/pubsub.editor"
     }
 
-  # google_pubsub_topic.log-sink-topic will be created
+  google_pubsub_topic.log-sink-topic will be created
   + resource "google_pubsub_topic" "log-sink-topic" {
       + id      = (known after apply)
       + labels  = {
@@ -30,7 +30,7 @@ Terraform will perform the following actions:
         }
     }
 
-  # random_string.suffix will be created
+   random_string.suffix will be created
   + resource "random_string" "suffix" {
       + id          = (known after apply)
       + length      = 3
